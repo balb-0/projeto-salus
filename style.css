@@ -181,7 +181,7 @@ li > a {
 .footer {
     position: absolute;
     background-color: var(--cor8);
-   
+    z-index: -1000;
     width: 100vw;
     display: flex;
     justify-content: center;
