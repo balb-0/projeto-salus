@@ -178,15 +178,14 @@ li > a {
 }
 
 .footer {
-    position: absolute;
     background-color: var(--cor8);
-    z-index: -1000;
+    
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    
     bottom: 0px;
 }
 
@@ -230,4 +229,11 @@ li > a {
     .logofooter {
         display: none;
     }
+}
+
+
+
+
+.teste {
+    height: 3000px;
 }
