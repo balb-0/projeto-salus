@@ -207,6 +207,7 @@ li > a {
 }
 
 .copy {
+    max-width: 20rem;
     word-break:break-all;
 }
 
