@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+    .cta {
+        max-width: 10rem;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    
+
+    .home {
+        flex-direction: column;
+    }
+    .img-home {
+        background-size: cover !important;
+        background-position: top;
+        max-width: 100vw !important;
+    }
+
+    .central {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitulo-home {
+        font-size: 1.1rem;
+    }
+
+    .titulo-home {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+}
