@@ -210,13 +210,13 @@ li > a {
 
 .titulo-home {
     max-width: 30rem;
-    /* font-size: 2rem; */
+    font-size: 2rem;
     line-height: 3rem;
     margin-top: 1rem;
 }
 
 .img-home {
-    background-image: url(https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg
+    background-image: url(https://img.freepik.com/free-photo/medical-physician-doctor-man_1150-15053.jpg?w=1380&t=st=1670197751~exp=1670198351~hmac=8989dc73cf630a3724f920bef7cafaa2441044e005cb4e936616a4056925de3b
     );
     background-size: cover;
     background-repeat: no-repeat;
@@ -224,7 +224,6 @@ li > a {
     width: 100%;
     height: 64vh;
     box-shadow: inset 4px 4px 15px 5px #00000042;
-    background-position: top;
 }
 
 .button-home {
@@ -286,21 +285,6 @@ li > a {
     justify-content: center;
     margin-left: 20px;
 }
-
-
-
-
-@media (max-width: 768px) {
-    .footer {
-        flex-direction: column;
-    }
-
-    .logofooter {
-        display: none;
-    }
-}
-
-
 
 
 .teste {

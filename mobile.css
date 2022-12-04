@@ -8,15 +8,14 @@
         display: none;
     }
 
-    
-
     .home {
         flex-direction: column;
     }
+
     .img-home {
         background-size: cover !important;
-        background-position: top;
         max-width: 100vw !important;
+        
     }
 
     .central {
@@ -31,6 +30,16 @@
     .titulo-home {
         text-align: center;
         font-size: 1.4em;
+        line-height: 1.9rem;
     }
 
+    .footer {
+        flex-direction: column;
+    }
+
+    .logofooter {
+        display: none;
+    }
 }
+
+
