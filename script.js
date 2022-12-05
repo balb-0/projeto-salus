@@ -16,14 +16,22 @@ toggle.addEventListener('click', () => {
     }
 })
 
-document.querySelectorAll('nav li').forEach(function(listitem) {
-    listitem.addEventListener('click', function() {
-        var topPosition = document.getElementById(listitem.dataset.page).offsetTop;
-        console.log(topPosition);
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        })
-    })
+
+const menuItems = document.querySelectorAll('.navega a[href^="#"]')
+
+menuItems.forEach(item => {
+    item.addEventListener('click', scroll);
 })
+ 
+function scroll(event) {
+    event.preventDefault();
+    const element = event.target;
+    const id = element.getAttribute('href');
+    const to = document.querySelector(id).offsetTop;
+    
+    window.scrollTo({
+        left: 0,
+        top: to - 114,
+        behavior: "smooth"
+    });
+}
