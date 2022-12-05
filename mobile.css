@@ -40,6 +40,10 @@
     .logofooter {
         display: none;
     }
+
+    .button-home {
+        max-width: 20rem;
+    }
 }
 
 
