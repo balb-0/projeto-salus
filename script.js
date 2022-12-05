@@ -1,6 +1,8 @@
 const lista = window.document.querySelector(".lista")
 const toggle = window.document.querySelector(".toggle")
 
+
+
 toggle.addEventListener('click', () => {
     const visivel = lista.getAttribute('data-visible')
     
@@ -14,4 +16,14 @@ toggle.addEventListener('click', () => {
     }
 })
 
-
+document.querySelectorAll('nav li').forEach(function(listitem) {
+    listitem.addEventListener('click', function() {
+        var topPosition = document.getElementById(listitem.dataset.page).offsetTop;
+        console.log(topPosition);
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    })
+})
