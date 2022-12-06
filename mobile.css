@@ -53,6 +53,19 @@
         line-height: 1.4;
         max-width: 90vw;
     }
+
+    .servicos {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .servicos-flex {
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 0 auto;
+        align-items: center;
+        gap: 5rem;
+    }
 }
 
 
