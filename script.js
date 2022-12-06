@@ -1,5 +1,8 @@
 const lista = window.document.querySelector(".lista")
 const toggle = window.document.querySelector(".toggle")
+const home = window.document.querySelector('.home-close')
+const sobre = window.document.querySelector('.sobre-close')
+const servicos = window.document.querySelector('.servicos-close')
 
 
 
@@ -14,6 +17,21 @@ toggle.addEventListener('click', () => {
         toggle.setAttribute('aria-expanded', false)
         
     }
+})
+
+home.addEventListener('click', () => {
+    lista.setAttribute('data-visible', false)
+    toggle.setAttribute('aria-expanded', false)
+})
+
+sobre.addEventListener('click', () => {
+    lista.setAttribute('data-visible', false)
+    toggle.setAttribute('aria-expanded', false)
+})
+
+servicos.addEventListener('click', () => {
+    lista.setAttribute('data-visible', false)
+    toggle.setAttribute('aria-expanded', false)
 })
 
 
@@ -35,3 +53,6 @@ function scroll(event) {
         behavior: "smooth"
     });
 }
+
+
+

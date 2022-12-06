@@ -312,6 +312,14 @@ li > a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: .4s;
+    
+}
+
+.card-servicos:hover {
+    transition: .4s;
+    background-color: var(--cor4);
+    color: var(--cor6);
 }
 
 
@@ -319,6 +327,7 @@ li > a {
     width: 90px;
     max-width: 100%;
     margin-bottom: 1rem;
+    
 }
 
 .titulo-cards {
