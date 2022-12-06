@@ -11,7 +11,7 @@ toggle.addEventListener('click', () => {
         toggle.setAttribute('aria-expanded', true)
     } else {
         lista.setAttribute('data-visible', false)
-        toggle.setAttribute('data-visible', true)
+        toggle.setAttribute('aria-expanded', false)
         
     }
 })

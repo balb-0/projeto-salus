@@ -230,7 +230,7 @@ li > a {
     margin: 2rem 0px;
     padding: 12px;
     background-color: #00a2ff;
-    max-width: 17rem;
+    max-width: 22rem;
     font-size: 1.2rem;
 }
 
@@ -241,6 +241,74 @@ li > a {
 .button-home > a {
     color: white;
 }
+
+
+.sobre-bg {
+    background-color: #adadad30;
+
+}
+
+
+.conteudo-sobre {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.subtitulo-sobre {
+    font-size: 1.4rem;
+    line-height: 1.4;
+
+}
+
+.salus {
+    color: var(--cor4);
+    font-weight: bolder;
+}
+
+.titulo-sobre {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+
+.texto-sobre {
+    line-height: 1.4;
+    max-width: 50vw;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer {
@@ -380,3 +448,9 @@ li > a {
 .sobre {
     height: 2000px;
 }
+
+
+
+
+
+

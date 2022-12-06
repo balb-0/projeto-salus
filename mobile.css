@@ -44,6 +44,15 @@
     .button-home {
         max-width: 20rem;
     }
+
+    .titulo-sobre {
+        max-width: 20rem;
+    }
+
+    .texto-sobre {
+        line-height: 1.4;
+        max-width: 90vw;
+    }
 }
 
 
