@@ -216,11 +216,11 @@ li > a {
     font-size: 2rem;
     line-height: 3rem;
     margin-top: 1rem;
+    color: var(--cor7);
 }
 
 .img-home {
-    background-image: url(https://img.freepik.com/free-photo/medical-physician-doctor-man_1150-15053.jpg?w=1380&t=st=1670197751~exp=1670198351~hmac=8989dc73cf630a3724f920bef7cafaa2441044e005cb4e936616a4056925de3b
-    );
+    background-image: url(https://img.freepik.com/free-photo/medical-physician-doctor-man_1150-15053.jpg?w=1380&t=st=1670197751~exp=1670198351~hmac=8989dc73cf630a3724f920bef7cafaa2441044e005cb4e936616a4056925de3b);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 60vw;
@@ -296,12 +296,14 @@ li > a {
 
 .servicos {
     min-height: 60vh;
+    display: flex;
+    justify-content: center;
 }
 
 .servicos-flex {
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem 20rem;
     margin: 5%;
 }
 
@@ -313,12 +315,13 @@ li > a {
     flex-direction: column;
     align-items: center;
     transition: .4s;
+    max-width: 350px;
     
 }
 
 .card-servicos:hover {
     transition: .4s;
-    background-color: var(--cor4);
+    background-color: var(--cor1);
     color: white;
 }
 
