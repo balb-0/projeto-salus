@@ -368,6 +368,20 @@ li > a {
     background-size: contain;
 }
 
+.site-servicos {
+    background-image: url(images/site_logo_branco.png);
+    height: 80px;
+    width: 80px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: .5rem;
+}
+
+.texto-site {
+    margin-top: 1.5rem;
+}
+
 
 
 
