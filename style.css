@@ -26,7 +26,7 @@
     --cor3: #2B7855;
     --cor4: #42B883;
     --cor5: #59F7B0;
-    --cor6: #000;
+    --cor6: #040a07;
     --cor7: #ffffff;
     --cor8: #143828; 
 }
@@ -355,6 +355,7 @@ li > a {
 
 .card-servicos-midia:hover > div {
     background-image: url(images/midias_logo_branco.png);
+
 }
 
 .seo-servicos {
