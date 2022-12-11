@@ -55,3 +55,11 @@ function scroll(event) {
 }
 
 
+const botaoEmail = document.querySelector('.button-email')
+
+botaoEmail.addEventListener('click', () => {
+    botaoEmail.submit(function(e) {
+        e.preventDefault()
+        return false
+    })
+})

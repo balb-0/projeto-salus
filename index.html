@@ -19,7 +19,7 @@
                 <li class="item home-close" data-page="home" id="homebtn"><a href="#home">HOME</a></li>
                 <li class="item sobre-close" id="sobrebtn"><a href="#sobre">SOBRE</a></li>
                 <li class="item servicos-close" id="servicosbtn"><a href="#servicos">SERVIÇOS</a></li>
-                <button class="item cta itemcta" id="contatobtn">CONTATO</button>
+                <li class="item cta itemcta" id="contatobtn"><a href="#contato">CONTATO</a></li>
             </ul>
             <section>
                 <a href="https://www.instagram.com/salusmedmarketing/" target="_blank">
@@ -102,18 +102,22 @@
                 </article>
             </div>
        </section>
+       <div class="linha"></div>
        <section class="contato" id="contato">
             <div class="contato-flex">
                 <div class="texto-contato">
-                    <p>Ao recebermos sua mensagem vamos procurar entender sua demanda, seus planos e objetivos, e assim conseguiremos trazer uma proposta que você possa avaliar se faz sentido ou não para você médico ou sua clínica!
-                    Tudo isso sem compromisso e de forma gratuita!
+                    <p>Ao recebermos sua mensagem vamos procurar entender sua demanda, seus planos e objetivos! Assim conseguiremos <span class="negrito">trazer uma proposta</span> para ajudar você a resolver suas necessidades! Tudo isso <span class="negrito">sem compromisso</span> e de forma <span class="negrito">gratuita!</span>
                     </p>
                 </div>
-                <div class="texto-contato">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eligendi reiciendis porro perspiciatis ratione nesciunt, vel laborum doloremque repellendus voluptatem aperiam possimus provident consequatur corporis cupiditate quisquam iure deleniti! Eligendi.</p>
-                </div>
-                <div class="texto-contato">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda voluptate, laboriosam blanditiis vel ut similique enim dolor dolorum suscipit, officia animi dicta corrupti veniam perspiciatis dolores quo modi. Qui, dolorem.</p>
+                <div >
+                    <form action="https://formspree.io/f/xpznvbay" class="email-contato" method="POST" id="formulario-contato">
+                        <h3 class="titulo-email-contato" class="item-email">Entre em Contato!</h3>
+                        <input type="text" name="text" id="text" placeholder="Nome" required class="item-email">
+                        <input type="email" name="email" id="email" placeholder="Email" required class="item-email">
+                        <input type="text" name="telefone" id="telefone" placeholder="Telefone" required class="item-email">
+                        <textarea id="mensagem-contato" name="mensagem-contato" rows="4" placeholder="Como podemos te ajudar?" class="item-email"></textarea>
+                        <button type="submit" class="item-email button-email">Enviar</button>
+                    </form>  
                 </div>
             </div>
        </section>
@@ -167,7 +171,7 @@
             
         </div>
     </footer>
-    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
