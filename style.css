@@ -412,6 +412,27 @@ li > a {
     margin-top: 1.5rem;
 }
 
+
+.saibamais-servicos {
+    margin-top: 1rem;
+    padding: .7rem;
+    background-color: var(--cor4);
+    border: none;
+    border-radius: 1rem;
+    color: var(--cor7);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: 0px 2px 6px 0px #00000066;
+
+}
+
+.saibamais-servicos:hover {
+    transition: .2s;
+    background-color: var(--cor3);
+}
+
+
+
 /* contato */
 
 
@@ -488,26 +509,6 @@ textarea {
     background-color: var(--cor5);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 .footer {
@@ -517,7 +518,7 @@ textarea {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+   
 }
 
 .texto {
@@ -645,6 +646,80 @@ textarea {
     margin: 0 auto;
 }
 
+/* cards expandidos */
+
+.expanded {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    gap: 2rem;
+    color: var(--cor6);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-expanded {
+    fill: var(--cor3);
+    transition: .2s;
+    text-shadow: 2px 2px #00000066;
+}
+
+.icons-expanded:hover {
+    cursor: pointer;
+    fill: var(--cor5);
+}
+
+.fechar-expanded {
+    background-color: transparent;
+    border: none;
+}
+
+.texto-expanded {
+    max-width: 50%;
+    background-color: var(--cor7);
+    padding: 3%;
+    border-radius: 2rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.midia-expanded-bg {
+    background-image: url(images/midias_logo.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: 3rem auto;
+}
+
+.seo-expanded-bg {
+    background-image: url(images/seo_logo.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: 3rem auto;
+}
+
+.trafego-expanded-bg {
+    background-image: url(images/trafego_logo.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: 3rem auto;
+}
+
+.site-expanded-bg {
+    background-image: url(images/site_logo.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: 3rem auto;
+}
 
 
 

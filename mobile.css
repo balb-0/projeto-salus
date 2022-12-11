@@ -73,6 +73,7 @@
         flex-direction: column;
         padding: 5%;
         max-width: 90%;
+        gap: 3rem;
     }
 
     .texto-contato {
@@ -83,6 +84,16 @@
 
     .email-contato {
         max-width: 90vw;
+    }
+
+    .texto-expanded {
+        max-width: 90vw;
+        max-height: 60vh;
+    }
+
+    .icons-expanded {
+        width: 60px;
+        height: 60px;
     }
     
     
