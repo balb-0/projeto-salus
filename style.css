@@ -130,6 +130,10 @@ li > a {
     text-shadow: 2px 2px #00000066;
 }
 
+.icons {
+    fill: #ffffffc3;
+}
+
 .icons:hover {
     cursor: pointer;
     fill: var(--cor5);
@@ -725,3 +729,6 @@ textarea {
 
 
 
+.carroca {
+    font-size: 1.1rem;
+}
