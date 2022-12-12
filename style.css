@@ -665,19 +665,20 @@ textarea {
 }
 
 .icons-expanded {
-    fill: var(--cor3);
+    fill: var(--cor1);
     transition: .2s;
     text-shadow: 2px 2px #00000066;
 }
 
 .icons-expanded:hover {
     cursor: pointer;
-    fill: var(--cor5);
+    fill: var(--cor4);
 }
 
 .fechar-expanded {
     background-color: transparent;
     border: none;
+    
 }
 
 .texto-expanded {

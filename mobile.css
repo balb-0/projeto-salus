@@ -86,9 +86,12 @@
         max-width: 90vw;
     }
 
+    .expanded {
+        font-size: .9rem;
+    }
+
     .texto-expanded {
         max-width: 90vw;
-        max-height: 60vh;
     }
 
     .icons-expanded {
